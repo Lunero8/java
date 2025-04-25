@@ -1,4 +1,4 @@
-import java.util.Scanner ; // used for taking input
+import java.util.Scanner ; // used to take input
 
 public class basic {
       public static void main (String[] args) {
