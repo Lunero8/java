@@ -255,6 +255,9 @@ public class test {
             double test2 = 3.1234567890123456789 ;
             System.out.println (test2) ;
 
+            System.out.print (3 + " ") ;
+            System.out.print (3) ;
+
             // Scanner scan = new Scanner(System.in) ;
             // char test3 = scan.next().charAt(1) ;
             // System.out.println (test3) ;   
