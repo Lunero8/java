@@ -61,6 +61,8 @@ public class methods {
             // variable arguments
             v (1,2,3,4,5) ;
             v2 (1,2, "Sayem", "Rahman") ;
+
+            cgb () ;
       }
 
       static void swaps (int a, int b)
@@ -97,5 +99,15 @@ public class methods {
             System.out.println (a) ;
             System.out.println (b) ;
             System.out.println (Arrays.toString(v)) ;
+      }
+
+      static void cgb ()
+      {
+            goodbye ("Sayem") ;
+      }
+
+      static void goodbye (String name)
+      {
+            System.out.println ("Good Bye " + name + "!") ;
       }
 }
