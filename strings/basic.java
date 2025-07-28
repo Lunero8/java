@@ -47,10 +47,29 @@ public class basic {
                   // print equal, greater or smaller 
             }
 
+            // .equals() 
+            String tryEquals = "Hello" ;
+
+            if (tryEquals.equals("Hello")) {
+                  // print yes
+            }
+
             // .substring : Sub String
             String substringFullName = "Aminur Rahman Sayem" ;
             String substringFirstName = substringFullName.substring(0, 5) ; // Aminu , (beginning index, last index+1)
             String substringLastName = substringFullName.substring(5) ; //r Rahman Sayem , (index 5 to last index)
+
+            // .split() : splits a string into an array of substrings based on a specified delimiter
+            String passageForSplit = "Aminur Rahman Sayem" ;
+
+            String[] stringArray1 = passageForSplit.split("\\s+") ; // splits the string into words by one or more spaces
+            String[] stringArray2 = passageForSplit.split(" ") ; // split on every single space
+            String[] stringArray3 = passageForSplit.split("") ; // split on every char
+            String[] stringArray4 = passageForSplit.split("a") ; // split on every a, and removes the 'a' from the result
+
+            // .trim() : remove leading and ending space :
+            String testTrim = "   Hello World   " ;
+            String afterTrim = testTrim.trim() ; // "Hello World" 
 
             // string to int 
             String str = "123" ;
