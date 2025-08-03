@@ -5,26 +5,26 @@
 
 /**
  * 🟩 What is Bubble Sort?
-Bubble Sort is a way to sort a list by comparing two numbers at a time and swapping them if they are in the wrong order.
-It keeps doing this until the whole list is sorted.
+      Bubble Sort is a way to sort a list by comparing two numbers at a time and swapping them if they are in the wrong order.
+      It keeps doing this until the whole list is sorted.
  */
 
 /**
  * 🟨 How Bubble Sort Works (Step-by-Step):
  
- 1. Start from the first number in the list.
+      1. Start from the first number in the list.
 
- 2. Compare it with the next number.
+      2. Compare it with the next number.
 
- 3. If the first number is bigger, swap them.
+      3. If the first number is bigger, swap them.
 
- 4. Move to the next pair, and do the same.
+      4. Move to the next pair, and do the same.
 
- 5. After one full round, the biggest number goes to the end.
+      5. After one full round, the biggest number goes to the end.
 
- 6. Repeat the process for the rest of the list, ignoring the last sorted part.
+      6. Repeat the process for the rest of the list, ignoring the last sorted part.
 
- 7. Keep doing this until the list is sorted.
+      7. Keep doing this until the list is sorted.
  */
 
 /**
@@ -38,6 +38,7 @@ It keeps doing this until the whole list is sorted.
  * 💾 Space Used:
       O(1) → does not need extra space
  */
+
 import java.util.* ;
 
 public class bubble_sort {
