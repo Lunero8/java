@@ -27,5 +27,15 @@ public class basic {
             // functions
             // array length
             int length = result.length ;
+
+            // sorting
+            Arrays.sort (result) ;
+
+            // filling an array
+            int arrForFilling = new int [5] ;
+            Arrays.fill (arrForFilling, 10) ; // all elements will be 10
+
+            // comparing arrays
+            boolean isEqual = Arrays.equals (marks, result) ; // false
       }
 }
