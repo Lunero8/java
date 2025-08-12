@@ -11,7 +11,6 @@
                   Update
                   Traverse
             */
-import java.util.* ;
 
 public class arrayADT {
 
