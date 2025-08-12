@@ -24,6 +24,10 @@ public class basic {
             for (int i = 0 ; i < size ; i++)  
                   number[i] = sc.nextInt() ;
 
+            // for-each loop
+            for (int a : result)
+                  System.out.println (a) ;
+
             // functions
             // array length
             int length = result.length ;
@@ -32,7 +36,7 @@ public class basic {
             Arrays.sort (result) ;
 
             // filling an array
-            int arrForFilling = new int [5] ;
+            int[] arrForFilling = new int [5] ;
             Arrays.fill (arrForFilling, 10) ; // all elements will be 10
 
             // comparing arrays
