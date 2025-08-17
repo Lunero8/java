@@ -41,5 +41,9 @@ public class basic {
 
             // comparing arrays
             boolean isEqual = Arrays.equals (marks, result) ; // false
+
+            // clone arrays
+            int[] arrOrginial = {1, 2, 4, 5} ;
+            int[] arrClone = arrOrginial.clone() ;
       }
 }
