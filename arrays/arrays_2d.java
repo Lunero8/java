@@ -17,6 +17,12 @@ public class arrays_2d {
                   for (int j = 0 ; j < numbers[i].length ; j++)
                         number[i][j] = sc.nextInt() ;
 
+            // printing using Array.toString() and Arrays.deepToString() 
+            int[][] a = {{2,3,4}, {5, 6, 7}} ;
+            
+            System.out.println (Arrays.toString (a[0])) ;
+            System.out.println (Arrays.deepToString (a)) ;
+
             // jagged array : In Java, a jagged array is a 2D array where each row can have a different number of columns.
 
             int[][] jagged = new int[3][];  // 3 rows, but columns not set yet

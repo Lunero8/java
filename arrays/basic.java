@@ -27,6 +27,14 @@ public class basic {
             // for-each loop
             for (int a : result)
                   System.out.println (a) ;
+      
+            // printing using Arrays.toString()
+            int[] arr = {1, 3, 4, 6 ,7} ;
+            System.out.println (Arrays.toString (arr)) ;
+
+            int[][] a = {{2,3,4}, {5, 6, 7}} ;
+            System.out.println (Arrays.toString (a[0])) ;
+            System.out.println (Arrays.deepToString (a)) ;
 
             // functions
             // array length
