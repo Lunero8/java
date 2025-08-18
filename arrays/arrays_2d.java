@@ -33,5 +33,9 @@ public class arrays_2d {
             jagged2[1] = new int[] {3, 4, 5, 6};
             jagged2[2] = new int[] {7, 8, 9};
 
+            // for each loop
+            for (int[] n : numbers) 
+                  for (int m : n) 
+                        System.out.print (m + " ") ;
       }
 }
