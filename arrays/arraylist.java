@@ -11,6 +11,7 @@ public class arraylist {
             // declaration
             ArrayList<String> food = new ArrayList<String>() ;
             ArrayList<Integer> nums = new ArrayList<>() ;
+            ArrayList<Integer> num = new ArrayList<Integer>() ;
 
             // add value
             food.add ("pizza") ;
