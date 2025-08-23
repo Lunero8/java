@@ -105,5 +105,9 @@ public class basic {
             list.print() ;
             list.size-- ;
             System.out.println (list.size) ;
+
+            // create a new node with value "0" and next is head
+            Node dummy = new Node("0");
+            dummy.next = head ;
       }
 }
