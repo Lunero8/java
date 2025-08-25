@@ -11,7 +11,7 @@ public class basic_buildin {
             // declare linked list
             LinkedList<String> list = new LinkedList<String>() ;
 
-            // add value at beggining
+            // add value at beginning
             list.addFirst ("b") ;
             list.addFirst ("a") ;
 
