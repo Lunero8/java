@@ -17,10 +17,10 @@ public class basic {
             }
       }
 
+      // declare head
       Node head  ;
       
       private int size ;
-
       basic () {
             this.size = 0 ;
       }

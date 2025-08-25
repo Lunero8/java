@@ -7,7 +7,8 @@ import java.util.* ;
 public class basic_buildin {
       public static void main (String[] args) {
             Scanner sc = new Scanner (System.in) ;
-
+            
+            // declare linked list
             LinkedList<String> list = new LinkedList<String>() ;
 
             // add value at beggining
@@ -32,11 +33,12 @@ public class basic_buildin {
                   System.out.print (list.get(i) + " ") ;
             System.out.println () ;
 
+            // printing usign for-each loop
             for (String l : list)
                   System.out.print (l + " ") ;
             System.out.println () ;
 
-            // delete first
+            // remove first
             list.removeFirst() ;
             System.out.println (list) ;
             list.remove() ;
