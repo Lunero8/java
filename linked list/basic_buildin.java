@@ -33,7 +33,7 @@ public class basic_buildin {
                   System.out.print (list.get(i) + " ") ;
             System.out.println () ;
 
-            // printing usign for-each loop
+            // for-each loop
             for (String l : list)
                   System.out.print (l + " ") ;
             System.out.println () ;
