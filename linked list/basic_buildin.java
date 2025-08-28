@@ -16,8 +16,8 @@ public class basic_buildin {
             list.addFirst ("a") ;
 
             // printing
-            System.out.println (list) ;
-            System.out.println (list.get(0)) ;
+            System.out.println (list) ; // [a, b] 
+            System.out.println (list.get(0)) ; // a
 
             // add value at end
             list.addLast ("c") ;
