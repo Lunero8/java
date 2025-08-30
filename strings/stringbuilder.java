@@ -31,5 +31,22 @@ public class stringbuilder {
 
             // stringbuilder to string
             str = a.toString() ;
+
+            // compare strings are equals or not
+            StringBuilder s1 = new StringBuilder ("A") ;
+            StringBuilder s2 = new StringBuilder ("A") ;
+
+            if (s1.toString().equals(s2.toString()))
+                  System.out.println ("Yes") ;
+            else
+                  System.out.println ("No") ;
+
+            s2.setCharAt(0, 'a') ;
+
+            if (s1.toString().equalsIgnoreCase(s2.toString()))
+                  System.out.println ("Yes") ;
+            else
+                  System.out.println ("No") ;
+
       }
 }
