@@ -41,6 +41,7 @@ public class stringbuilder {
             else
                   System.out.println ("No") ;
 
+            // compare stringbuilder are equals or not ignore case
             s2.setCharAt(0, 'a') ;
 
             if (s1.toString().equalsIgnoreCase(s2.toString()))
