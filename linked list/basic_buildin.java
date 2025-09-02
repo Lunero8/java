@@ -47,9 +47,9 @@ public class basic_buildin {
             // remove last
             list.removeLast() ;
             System.out.println (list) ;
- 
+
             // add some values
-            list.addFirst ("b") ;              
+            list.addFirst ("b") ;
             list.addFirst ("a") ;
             System.out.println (list) ;
 
