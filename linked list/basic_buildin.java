@@ -56,6 +56,5 @@ public class basic_buildin {
             // remove selected index
             list.remove(1) ;
             System.out.println (list) ;
-            
       }
 }
